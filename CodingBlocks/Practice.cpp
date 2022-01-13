@@ -1752,29 +1752,30 @@ using namespace std;
 //     return 0;
 // }
 int main() {
-int n;
-cin>>n;
-int arr[1000];
-for(int i=0;i<n;i++){
-	cin>>arr[i];
-}
-int k;
-cin>>k;
-sort(arr,arr+n);
+int n=INT_MAX;
+cout<<n<<endl;
+cout<<n+1<<endl;
+// int arr[1000];
+// for(int i=0;i<n;i++){
+// 	cin>>arr[i];
+// }
+// int k;
+// cin>>k;
+// sort(arr,arr+n);
 
-for(int i=0;i<n;i++){
-int start=i+1;
-int end=n-1;
-if(arr[i]+arr[start]+arr[end]==k){
-	cout<<arr[i]<<","<<" "<<arr[start]<<" "<<"and "<<arr[end]<<endl;
-}
-else if(arr[i]+arr[start]+arr[end]<k){
-	continue;
-}
-else{
-	end--;
-}
-}
+// for(int i=0;i<n;i++){
+// int start=i+1;
+// int end=n-1;
+// if(arr[i]+arr[start]+arr[end]==k){
+// 	cout<<arr[i]<<","<<" "<<arr[start]<<" "<<"and "<<arr[end]<<endl;
+// }
+// else if(arr[i]+arr[start]+arr[end]<k){
+// 	continue;
+// }
+// else{
+// 	end--;
+// }
+// }
 	
 	return 0;
 }

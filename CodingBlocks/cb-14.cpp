@@ -1,4 +1,6 @@
+//kadane's Algo
 #include<bits/stdc++.h>
+
 using namespace std;
 int KadaneAlgo(int *arr,int n){
     int flag=0;
